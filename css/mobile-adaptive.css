@@ -1,0 +1,126 @@
+@media screen and (max-width: 1019px) {
+    .idc-section {
+        max-width: 610px;
+    }
+    .idc-container {
+        max-width: unset;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    /* ******head**** */
+
+    .idc-head .idc-container {
+        padding-bottom: 80px;
+    }
+    .idc-head .idc-title {
+        margin-top: 35px;
+    }
+    /* ******pluse**** */
+
+    .idc-pluse {
+        width: calc(33.33% - 12px);
+    }
+}
+
+@media (max-width: 699px) {
+    /* ******head**** */
+    .idc-head .idc-container {
+        padding-top: 30px;
+        padding-bottom: 70px;
+    }
+
+    .idc-head .idc-title {
+        /* font-size: 35px; */
+        font-size: 11vw;
+        line-height: 13.4vw;
+        /* line-height: 43px; */
+    }
+    .idc-subtitle {
+        margin-top: 10px;
+        font-weight: 400;
+        /* font-size: 16px; */
+        /* line-height: 19px; */
+        font-size: 5vw;
+        line-height: 6vw;
+    }
+    .idc-head .idc-text {
+        margin-left: 0;
+        margin-top: 7px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .idc-logo-wrapper {
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .idc-logo {
+        width: 16.5vw;
+    }
+
+    /* ******info**** */
+    .idc-info .idc-container {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .idc-info p > strong {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .idc-info ul li {
+        font-size: 14px;
+        line-height: 140%;
+        margin-top: 12px;
+        padding-left: 15px;
+    }
+    .idc-info p:not(:first-child) {
+        margin-top: 60px;
+    }
+    .idc-info ul li::before {
+        top: 7px;
+        width: 6px;
+        height: 6px;
+    }
+
+    /* *****pluses*** */
+    .idc-pluses .idc-container {
+        padding-top: 0;
+        padding-bottom: 60px;
+    }
+    .idc-pluses .idc-title {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .idc-pluses-block {
+        margin-top: 10px;
+    }
+    .idc-pluse {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .idc-pluse .idc-text {
+        font-size: 13px;
+        line-height: 16px;
+        max-width: 176px;
+    }
+
+    /* ***********************footer****************** */
+    .idc-footer .idc-container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .idc-footer .idc-text {
+        font-size: 16px;
+        line-height: 140%;
+        max-width: 192px;
+        margin: 0 auto;
+    }
+}
