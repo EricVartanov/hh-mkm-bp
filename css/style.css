@@ -157,12 +157,15 @@ svg {
 }
 
 .idc-info p > strong {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     font-style: normal;
     font-weight: bold;
-    font-size: 22px;
-    line-height: 27px;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
     color: #1d1c1f;
+    text-transform: uppercase;
 }
 .idc-info p {
     margin: 0;
@@ -205,8 +208,8 @@ svg {
 .idc-pluses .idc-title {
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
-    line-height: 27px;
+    font-size: 20px;
+    line-height: 24px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #1d1c1f;
